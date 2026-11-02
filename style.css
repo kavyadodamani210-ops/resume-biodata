@@ -89,6 +89,7 @@ ul { list-style: none; }
   padding: 8px 20px;
   border-radius: var(--radius-pill);
   font-size: 0.9rem;
+
   font-weight: 500;
   color: var(--text-secondary);
   transition: var(--transition);
@@ -435,19 +436,19 @@ ul { list-style: none; }
 }
 .profile-card { text-align: center; }
 .profile-pic {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   margin: 0 auto 16px;
   background: var(--bg-card2);
   border: 3px solid var(--border-hover);
   overflow: hidden;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 30px var(--accent-glow);
 }
-.profile-pic img { width: 90px; height: 90px; object-fit: contain; }
+.profile-pic img { width: 90px; height: 90px; object-fit: cover; }
 .profile-card h2 { font-size: 1.4rem; font-weight: 700; margin-bottom: 4px; }
 .profile-title {
   color: var(--accent);
